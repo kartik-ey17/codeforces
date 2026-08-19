@@ -2,8 +2,7 @@
 using namespace std;
 int main() {
     int m , n;
-    m = 3;
-    n = 3;
+    cin >>m >> n;
     int count;
     count = (m*n)/2;
     cout << count;
