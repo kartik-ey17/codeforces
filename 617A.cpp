@@ -2,12 +2,14 @@
 using namespace std;
 
 int main() {
-    long long x;
-    x =4 ;
-    int y;
-    y = x/5;
-    cout << y;
-    int z;
-    z = (y%5)/4;
-    cout<<z;
+    int x;
+    cin >> x;
+    int moves = x/5;
+    if (x%5 != 0) {
+        moves++;
+        cout<<moves;
+    }
+    else {
+        cout<<moves;
+    }
 }
